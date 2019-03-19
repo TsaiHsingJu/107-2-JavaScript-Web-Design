@@ -1,0 +1,62 @@
+body
+{
+    background:rgb(248, 141, 157);
+}
+
+#container
+{
+    width:350px;
+    margin: 40px auto;
+    background: mistyrose;
+}
+
+h1
+{
+    text-align: center;
+    color:rgb(223, 128, 223);
+}
+
+#board li
+{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    float: left;
+    list-style: none;
+    background: pink;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;  
+    color: rgb(129, 183, 236);  
+}
+
+.clearfix
+{
+    clear:both;
+}
+
+footer
+{
+    text-align: center;
+    padding:20px;
+    margin: 10px;
+}
+
+#reset{
+    width:70%;
+    background:rgb(247, 172, 185);
+    color:black;
+    padding:15px;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+.o
+{
+    color: rgb(37, 202, 37) !important;
+}
+
+.x
+{
+    color: rgb(240, 49, 49) !important;
+}
