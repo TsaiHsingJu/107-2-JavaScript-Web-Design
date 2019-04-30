@@ -1,0 +1,50 @@
+ #container {
+            width: 2000px;
+            height: 612px;
+            border: 5px solid purple;
+            background-color: rgb(175, 109, 23)
+}
+h1{
+    width: 2000px;
+    height: 50px;
+    text-align: center;
+}
+#player{
+            width: 2000px;
+            height: 480px;
+            background-color: black;
+            float: left;
+}
+
+img{
+    width: 930px;
+    height: 347px;
+    margin:50px ;
+}
+
+#aside{
+            width: 100px;
+            height: 40px;;
+            background-color: burlywood;
+            float: right;
+           
+}
+#tkuitem{
+          padding-top: 10px;
+          margin: 30px;
+
+}
+
+button{
+    margin: 10px;
+    float: right;
+}
+        
+tr{
+           background-color: antiquewhite;
+}
+.pic{
+            width: 100px;
+            height: 70px;
+            cursor: pointer;
+}

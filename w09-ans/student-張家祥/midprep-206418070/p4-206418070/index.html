@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .clearfix{
+        clear:both;
+    }
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    header{
+        height: auto;
+        width: 100%;
+    }
+    .logo{
+        width: 30%;
+        background: #000;
+        color:white;
+        padding: 10px;
+        text-align: center;
+        float: left;
+    }
+    .header{
+        width: 70%;
+        background: red;
+        color:white;
+        padding: 10px;
+        text-align: center;
+        float: left;
+    }
+    .content{
+        width: 100%;
+    }
+    aside{
+        width: 30%;
+        height: 700px;
+        background: blue;
+        color:white;
+        padding: 10px;
+        text-align: center;
+        float: left;
+    }
+    section{
+        width: 70%;
+        height: 700px;
+        background: purple;
+        color:white;
+        padding: 10px;
+        text-align: center;
+        float: left;
+    }
+    nav{
+        height: 680px;
+        background: green;
+        border: 1px solid #000;
+    }
+    .tku{
+        margin-bottom: 100px;
+        background: yellow;
+        padding: 10px;
+    }
+    .tku ul{
+        margin-top: 50px;
+    }
+    .tku  li{
+        margin: 30px 0;
+        list-style: none;
+        width: 50px;
+    }
+    .image{
+        background: yellow;
+        padding: 10px;
+    }
+    .image  li{
+        margin: 30px 0;
+        list-style: none;
+        width: 100px;
+    }
+    a{
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 10px;
+        /* display: block; */
+    }
+    footer{
+        height: 80px;
+        background: #000;
+        color:white;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .display{
+        height: 450px;
+        background: blue;
+
+    }
+    .images{
+        height: 200px;
+        background: green;
+    }
+    .images li{
+        float:left;
+        margin-top: 50px;
+        margin-left: 5px;
+        list-style: none;
+        height: 100px;
+        width: 150px;
+        background: red;
+    }
+    img{
+        width: 150px;
+        height: 100px;
+    }
+
+    img.active{
+        border: 10px solid purple;
+    }
+
+    a.active{
+        background: lightblue;
+    }
+</style>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="header">
+                <h1>header</h1>
+            </div>
+        </header>
+        <div class="clearfix"></div>
+        <div class="content">
+            <aside>
+                <nav>
+                    <p>淡江大戲</p>
+                    <ul class="tku">
+                        <li><a href="#">Part1</a></li>
+                        <li><a href="#">Part2</a></li>
+                        <li><a href="#">Part3</a></li>
+                        <li><a href="#">Part4</a></li>
+                        <li><a href="#">Part5</a></li>
+                    </ul>
+                    <p>相簿</p>
+                    <ul class="image">
+                        <li><a href="#">paparaya-1</a></li>
+                        <li><a href="#">paparaya-2</a></li>
+                        <li><a href="#">paparaya-3</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <section>
+                <div class="display">
+
+                </div>
+                <div class="images">
+                    <ul>
+                        <li><img id="one" src="image/TKU1.png" alt=""></li>
+                        <li><img id="two" src="image/TKU2.png" alt=""></li>
+                        <li><img id="three" src="image/TKU3.png" alt=""></li>
+                        <li><img id="four" src="image/TKU4.png" alt=""></li>
+                        <li><img id="five" src="image/TKU5.png" alt=""></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="clearfix"></div>
+        <footer>
+            footer
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

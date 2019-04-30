@@ -1,0 +1,58 @@
+body{
+    background: #1c1b1c;
+}
+#container{
+    width: 350px;
+    margin: 40px auto;
+    background: #555;
+    padding-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+#board li{
+    width: 70px;
+    height: 70px;
+    float: left;
+    list-style: none;
+    background: #333;
+    margin: 10px;
+    font-size: 55px;
+    text-align: center;
+    color: #cccc;
+    line-height: 70px;
+}
+
+#board li:hover{
+    cursor: pointer;
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+#reset{
+    width: 70%;
+    background: #444;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.circle{
+  color: green !important;
+}
+
+.cross{
+  color: red !important;
+}

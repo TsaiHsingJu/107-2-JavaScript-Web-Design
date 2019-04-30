@@ -1,0 +1,141 @@
+*{
+  box-sizing: border-box;
+}
+.clearfix{
+  clear:both;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+header{
+  height: auto;
+  width: 100%;
+}
+.logo{
+  width: 20%;
+  background: rgb(230, 185, 185);
+  color: purple;
+  padding: 10px;
+  text-align: center;
+  float: left;
+}
+.header{
+  width: 80%;
+  background: rgb(255, 0, 0, 0.5);
+  color: purple;
+  padding: 10px;
+  text-align: center;
+  float: left;
+}
+.content{
+  width: 100%;
+}
+aside{
+  width: 20%;
+  height: 700px;
+  background: rgb(91, 119, 194);
+  color:white;
+  padding: 10px;
+  text-align: center;
+  float: left;
+}
+section{
+  width: 80%;
+  height: 700px;
+  background: rgb(216, 104, 216);
+  color:white;
+  padding: 10px;
+  text-align: center;
+  float: left;
+}
+nav{
+  height: 650px;
+  background: rgb(114, 180, 104);
+  border: 1px solid #000;
+}
+#tku{
+  margin-bottom: 100px;
+  background: yellow;
+  padding: 10px;
+}
+#tku ul{
+  margin-top: 50px;
+}
+#tku  li{
+  margin: 30px auto;
+  list-style: none;
+  width: 50px;
+  color: rgb(26, 24, 145);
+  cursor: pointer;
+}
+
+#tku li.active{
+   background: rgb(10, 34, 87);
+   color: white;
+}
+.image{
+  background: yellow;
+  padding: 10px;
+}
+.image li{
+  margin: 30px auto;
+  list-style: none;
+  width: 100px;
+}
+.tku a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: blue;
+  /* display: block; */
+}
+
+.tku a.hover{
+  background-color: blue;
+  color: white;
+}
+
+footer{
+  height: 80px;
+  background: rgb(90, 88, 88);
+  color:white;
+  font-size: 50px;
+  text-align: center;
+}
+
+#display{
+  height: 450px;
+  background: rgb(43, 43, 53);
+
+}
+#images{
+  height: 200px;
+  background: rgb(114, 180, 104);
+}
+#images li{
+  float:left;
+  margin-top: 50px;
+  margin-left: 5px;
+  list-style: none;
+  height: 100px;
+  width: 150px;
+}
+img{
+  width: 150px;
+  height: 100px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+img.active{
+  border: 10px solid purple;
+}
+
+a.active{
+  background: lightblue;
+}
+
+.border10{
+  border: 10px solid purple;
+}
