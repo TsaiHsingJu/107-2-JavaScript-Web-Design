@@ -1,0 +1,78 @@
+#container{
+    width:900px;
+    height:720px;
+    border: 5px solid purple;
+    background-color:rgb(192, 110, 16) ;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    width: 900px;
+    height: 100px;
+    line-height: 100px;
+}
+
+header button{
+    float:left;
+    margin-left: 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.row nav{
+    width: 900px;
+    height:50px;
+    background-color: antiquewhite;
+}
+
+.row nav ul li{
+    float: left;
+    margin: 10px 5px 10px 5px; 
+
+}
+
+.row .player{
+    width: 900px;
+    height: 540px;
+    background-color: black;
+
+}
+
+.row iframe{
+    margin: 50px 130px;
+
+}
+
+.col nav{
+    width: 200px;
+    height: 600px;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.col ul{
+    margin: 10px;
+
+}
+
+.col ul li{
+    margin-top: 10px;
+}
+
+.col .player{
+    width: 700px;
+    height: 600px;
+    float: right;
+    background-color: black;
+}
+
+.col iframe{
+    margin: 80px 40px;
+
+}
+
