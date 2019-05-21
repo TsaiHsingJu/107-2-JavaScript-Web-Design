@@ -1,0 +1,57 @@
+.success{
+    background-color: rgb(68, 236, 68);
+    color: white;
+    padding: 5px;
+    margin:5px 0 15 0;
+}
+
+.error{
+    background-color: rgb(243, 50, 50);
+    color: white;
+    padding: 5px;
+    margin:5px 0 15 0;
+}
+
+body{
+    background-color: mistyrose;
+
+}
+
+.container{
+    height: 100%;
+    width: 50%;   
+    float: center;
+    background-color: pink;
+}
+
+table{
+    float: center;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.hi1{
+    /* height: 10%;
+    width: 80%; */
+    text-align: center;
+    background-color: rgb(236, 82, 113);
+
+}
+
+.hi2{
+    /* height: 10%;
+    width: 50%; */
+    text-align: center;
+    background-color: rgb(182, 118, 241);
+
+}
+
+.hi3{
+    /* height: 10%;
+    width: 50%; */
+    text-align: center;
+    background-color: rgb(132, 173, 250);
+}
