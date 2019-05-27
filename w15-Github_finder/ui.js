@@ -5,9 +5,8 @@ class UI{
 
     showProfile(user){
         this.profile.innerHTML = `
-        <div class="card card-body">
+        <div class="card card-body">        
         <div class="row">
-        
           <div class="col-md-3">
             <img src="${user.avatar_url}" alt="" class="img-fluid mb-2">
             <a href="${user.html_url}" class="btn btn-primary btn-block">View Profile</a>
@@ -25,16 +24,14 @@ class UI{
                 <li class="list-group-item"> Location :${user.location} </li>
                 <li class="list-group-item"> Member Since :${user.created_at} </li>
             </ul>
-
           </div>
-
         </div>
       </div>
     `;
     }
 
     showRepos(repos){
-
+        
     }
 
     clearProfile(){
