@@ -1,0 +1,42 @@
+[
+    {
+        "id" : 1,
+        "pic" : "testimonial-1.jpg",
+        "name" : "Saul Goodman",
+        "category" : "Ceo & Founder",
+        "intro" : " Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper."
+        
+    },
+
+    {
+        "id" : 2,
+        "pic" : "testimonial-2.jpg",
+        "name" : "Sara Wilsson",
+        "category" : "Designer",
+        "intro" :"Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa."
+    },
+
+    {
+        "id" : 3,
+        "pic" : "testimonial-3jpg",
+        "name" : "Jena Karlis",
+        "category" : "Store Owner",
+        "intro" :"Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim."
+    },
+
+    {
+        "id" : 4,
+        "pic" : "testimonial-4.jpg",
+        "name" : "Matt Brandon",
+        "category" : "Freelancer",
+        "intro" :"Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam."
+    },
+
+    {
+        "id" : 5,
+        "pic" : "testimonial-5.jpg",
+        "name" : "John Larson",
+        "category" : "Entrepreneur",
+        "intro" :"Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid."
+    }
+]
