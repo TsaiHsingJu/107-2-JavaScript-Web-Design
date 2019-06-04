@@ -18,7 +18,7 @@ fetch('./js/testimonials.json')
         data.forEach(function (p) {
             output += `
             <div class="testimonial-item">
-            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+            <img src="img/${p.pic}" class="testimonial-img" alt="">
             <h3>${p.name}</h3>
             <h4>${p.category}</h4>
             <p>
