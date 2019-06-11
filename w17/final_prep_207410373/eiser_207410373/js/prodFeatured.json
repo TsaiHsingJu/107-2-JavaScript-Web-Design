@@ -1,0 +1,23 @@
+[
+    {
+        "pic" : "f-p-1.jpg",
+        "name" : "Latest men’s sneaker",
+        "lastPrice" :"$25.00",
+        "origionalPrice" : "$35.00"
+    },
+
+    {
+        "pic" : "f-p-2.jpg",
+        "name" : "Red women purses",
+        "lastPrice" :"$25.00",
+        "origionalPrice" : "$35.00"
+    },
+
+    {
+        "pic" : "f-p-3.jpg",
+        "name" : "Men stylist Smart Watch",
+        "lastPrice" :"$25.00",
+        "origionalPrice" : "$35.00"
+    }
+]
+

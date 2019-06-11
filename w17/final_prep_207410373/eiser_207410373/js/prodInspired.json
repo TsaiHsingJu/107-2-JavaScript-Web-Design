@@ -1,0 +1,57 @@
+[
+    {
+        "pic" : "i1.jpg",
+        "name" : "Latest men’s sneaker",
+        "lastPrice" :"$25.00",
+        "origionalPrice" : "$35.00"
+    },
+
+    {
+        "pic" : "i2.jpg",
+        "name" : "Latest men’s sneaker",
+        "lastPrice" :"$25.00",
+        "origionalPrice" : "$35.00"
+    },
+
+    {
+        "pic" : "i3.jpg",
+        "name" : "Latest men’s sneaker",
+        "lastPrice" :"$25.00",
+        "origionalPrice" : "$35.00"
+    },
+
+    {
+        "pic" : "i4.jpg",
+        "name" : "Latest men’s sneaker",
+        "lastPrice" :"$25.00",
+        "origionalPrice" : "$35.00"
+    },
+
+    {
+        "pic" : "i5.jpg",
+        "name" : "Latest men’s sneaker",
+        "lastPrice" :"$25.00",
+        "origionalPrice" : "$35.00"
+    },
+
+    {
+        "pic" : "i6.jpg",
+        "name" : "Latest men’s sneaker",
+        "lastPrice" :"$25.00",
+        "origionalPrice" : "$35.00"
+    },
+
+    {
+        "pic" : "i7.jpg",
+        "name" : "Latest men’s sneaker",
+        "lastPrice" :"$25.00",
+        "origionalPrice" : "$35.00"
+    },
+
+    {
+        "pic" : "i8.jpg",
+        "name" : "Latest men’s sneaker",
+        "lastPrice" :"$25.00",
+        "origionalPrice" : "$35.00"
+    }
+]
